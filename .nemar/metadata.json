@@ -1,29 +1,71 @@
 {
   "version": "2.0",
-  "dataset_id": "on007137",
-  "source": "openneuro",
-  "source_id": "ds007137",
+  "pipeline_stage": "validated",
   "title": "PURSUE N2pc Visual Search",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Couperus, J.W.": {},
     "Bukach, C.M.": {},
     "Reed, C.L.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007137.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2020.117465",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007137",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007137",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "13.1 GB (295 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "The PURSUE N2pc Visual Search dataset comprises event-related potential (ERP) recordings from a visual search task conducted across three undergraduate institutions. Data were collected from participants in 2017-2018 and represent a component of the ERP CORE resource for standardized human electrophysiological research. The dataset includes demographic information and is designed to facilitate investigation of the N2pc component, a neural marker of attentional selection during visual search.",
+  "methods_description": "EEG data were collected during a visual search task from participants at three primarily undergraduate institutions (Southern California, Massachusetts, and Virginia) in 2017 and 2018. Task design details are provided in Kappenman et al. (2021) with additional information in supplementary materials.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "N2pc component"
+    },
+    {
+      "term": "visual search"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "electrophysiology"
+    }
+  ],
+  "source_hash": "ef8fb4782594448b10e7bfb3c1a60095a5f52636a3c061adff87ab7e6d59caa4"
 }
